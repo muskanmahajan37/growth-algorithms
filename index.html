@@ -11,50 +11,26 @@
 <body>
 <div id="wrap">
     <!-- TODO sorting algorithms should be using the same animation loop and the same data set -->
-    <section id="quicksort">
-        <script>
-            SortingAnimation.prepareAnimation(quicksort, "#quicksort");
-        </script>
-        <h2 class="sorting-title"><a href="http://en.wikipedia.org/wiki/Quicksort" target="_blank">Quicksort</a></h2>
-    </section>
+    <section id="quicksort"></section>
 
-    <section id="combsort">
-        <script>
-            SortingAnimation.prepareAnimation(combsort, "#combsort");
-        </script>
-        <h2 class="sorting-title"><a href="http://en.wikipedia.org/wiki/Comb_sort" target="_blank">Comb sort</a></h2>
-    </section>
+    <section id="combsort"></section>
 
-    <section id="gnomesort">
-        <script>
-            SortingAnimation.prepareAnimation(gnomesort, "#gnomesort");
-        </script>
-        <h2 class="sorting-title"><a href="http://en.wikipedia.org/wiki/Gnome_sort" target="_blank">Gnome sort</a></h2>
-    </section>
+    <section id="gnomesort"></section>
 
-    <section id="selectionsort">
-        <script>
-            SortingAnimation.prepareAnimation(selectionSort, "#selectionsort");
-        </script>
-        <h2 class="sorting-title"><a href="http://en.wikipedia.org/wiki/Selection_sort" target="_blank">Selection sort</a></h2>
-    </section>
+    <section id="selectionsort"></section>
 
-    <section id="bubblesort">
-        <script>
-            SortingAnimation.prepareAnimation(bubblesort, "#bubblesort");
-        </script>
-        <h2 class="sorting-title"><a href="http://en.wikipedia.org/wiki/Bubble_sort" target="_blank">Bubble sort</a></h2>
-    </section>
+    <section id="bubblesort"></section>
 
-    <section id="bogosort">
-        <script>
-            SortingAnimation.prepareAnimation(bogosort, "#bogosort");
-        </script>
-        <h2 class="sorting-title"><a href="http://en.wikipedia.org/wiki/Bogosort" target="_blank">Bogosort</a></h2>
-    </section>
+    <section id="bogosort"></section>
 
     <script>
         SortingAnimation.start(500);
+        SortingAnimation.prepareAnimation(quicksort, "#quicksort");
+        SortingAnimation.prepareAnimation(combsort, "#combsort");
+        SortingAnimation.prepareAnimation(gnomesort, "#gnomesort");
+        SortingAnimation.prepareAnimation(selectionSort, "#selectionsort");
+        SortingAnimation.prepareAnimation(bubblesort, "#bubblesort");
+        SortingAnimation.prepareAnimation(bogosort, "#bogosort");
     </script>
 </div>
 </body>
